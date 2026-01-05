@@ -145,7 +145,7 @@ const WeatherScreen = () => {
         }
 
         const location = await Location.getCurrentPositionAsync({
-          accuracy: Location.Accuracy.Balanced,
+          accuracy: Location.Accuracy.Highest,
         })
 
         const { latitude, longitude } = location.coords

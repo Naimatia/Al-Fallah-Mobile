@@ -15,9 +15,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/logo.png"
+        //"backgroundImage": "./assets/images/android-icon-background.png",
+        //"monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -32,7 +32,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -56,6 +56,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9eed1eb3-8677-48e7-a7ce-81de9277d82f"
+      },
+ "clerkPublishableKey": "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY",
+  "stripePublishableKey": "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY",
+    "weatherApiKey": "EXPO_PUBLIC_WEATHER_API_KEY"
+
     }
   }
 }
